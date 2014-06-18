@@ -1,3 +1,6 @@
+此项目废弃，请使用super-diamond: https://github.com/melin/super-diamond
+---------
+
 基于淘宝diamond改造的配置管理服务器，主要做了如下改造
 1：重新设计了界面，基于bootstrap样式
 2：重新重构了工程的pom.xml,更新jar
