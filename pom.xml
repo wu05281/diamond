@@ -15,8 +15,8 @@
 		<servlet.version>3.1.1</servlet.version>
 		<jstl.version>1.2</jstl.version>
 		
-		<mysql.version>5.1.18</mysql.version>
-		<druid.version>0.2.2</druid.version>
+		<mysql.version>5.1.36</mysql.version>
+		<druid.version>1.0.21</druid.version>
 		
 		<commons-io.version>2.1</commons-io.version>
 		<commons-httpclient.version>3.1</commons-httpclient.version>
@@ -37,7 +37,7 @@
 	<modules>
 		<module>tp.diamond-utils</module>
 		<module>tp.diamond-client</module>
-		<!-- <module>tp.diamond-server</module> -->
+		<module>tp.diamond-server</module>
 	</modules>
 
 	<build>
