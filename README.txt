@@ -28,5 +28,7 @@ CREATE TABLE `config_info` (
 4：修改数据库连接，数据库配置文件为:META-INF/res/jdbc-production.properties
 5：diamond-server访问用户数据存放在文件:/META-INF/res/user.properties中，可以在此文件中修改用户数据。
 6：启动tomcat服务器。
-7：启动服务器以后，diamond-server.war被解压出一个目录diamond-server，在diamond-server目录中创建文件dimaond
-       文件添加内容为当前服务器IP地址
+7：启动服务器以后，diamond-server.war被解压出一个目录diamond-server，在diamond-server目录中创建文件dimaond, 文件添加内容为当前服务器IP地址
+8：node.properties文件，这里面添加三台机器的IP以及端口，如
+127.0.0.1\:8080
+192.168.211.80\:8080
