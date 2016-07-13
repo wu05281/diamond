@@ -32,3 +32,4 @@ CREATE TABLE `config_info` (
 8：node.properties文件，这里面添加三台机器的IP以及端口，如
 127.0.0.1\:8080
 192.168.211.80\:8080
+9：客户端使用配置：$USER_HOME/diamond/目录下新建ServerAddress文件，添加server服务器地址
